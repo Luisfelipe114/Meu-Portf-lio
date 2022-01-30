@@ -121,6 +121,13 @@ body, html, header {
     padding: 20px 80px 20px 80px;
 }
 
+
+
+#projetos a {
+    color: black;
+}
+
+
 .carousel-control-next, .carousel-control-prev {
     width: 10%;
     color: black;
