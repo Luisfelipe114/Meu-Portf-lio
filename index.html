@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuerys.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <div class="container">
+                <!--Menu hamburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Navegação-->
+                <div class="collapse navbar-collapse" id="nav-target">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                        <a href="" class="nav-link">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="" class="nav-link">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="" class="nav-link">Contatos</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div style="width: 100%;" id="div-img-capa" class="centro">
+            <img id="img-capa" src="imagens/undraw_Hello_re_3evm.png" alt="">
+        </div>
+
+        <section id="capa-conteudo" >
+            <div class="row">
+                <div class="col-md-12 centro introducao-capa">
+                    <h1 id="titulo-capa">Portfólio</h1>
+                    <p id="subtitulo-capa">Um pouco sobre mim e o que eu faço</p>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="bg-preto caixa">
+            <div class="row justify-content-between">
+                <div id="caixa-perfil" class="col-md-5"> 
+                    <div class="centro">
+                        <img id="img-perfil" src="imagens/perfil2.jpeg" alt="" width="50%">
+                        <p id="texto-sm">Me chamo Luis Felipe, natural de Teresina, Piauí. Atualmente, curso o 2° período do curso de Ciências da Computação, na UFPI. Meu estudo atual é para trabalhar no desenvolvimento, mas meu sonho é trabalhar futuramente com inteligência artificial</p>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div id="caixa-skills">
+                        <div class="centro">
+                            <h4 id="titulo-skills">Skills</h4>
+                        </div>
+                        <ul id="lista-skills">
+                            <li>
+                                <i class="far fa-check-square"></i>
+                                Html
+                            </li>
+                            <li>
+                                <i class="far fa-check-square"></i>
+                                Css
+                            </li>
+                            <li>
+                                <i class="far fa-check-square"></i>
+                                Bootstrap
+                            </li>
+                            <li>
+                                <i class="far fa-check-square"></i>
+                                Javascript
+                            </li>
+                            <li>
+                                <i class="far fa-check-square"></i>
+                                Php
+                            </li>
+                            <li>
+                                <i class="far fa-check-square"></i>
+                                Mysql
+                            </li>
+                            <li>
+                                <i class="far fa-check-square"></i>
+                                Git e GitHub
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="bg-branco">
+            <div class="centro" id="caixa-titulo-mp">
+                <h1>Meus Projetos</h1>
+            </div>
+            <div class="centro">
+                <div id="carousel-controles" class="carousel slide" data-ride="carousel">
+                    <div  class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="titulo-projeto">
+                          <h1><span>Spotify clone</span></h1>
+                        </div>
+                        <div style="margin-top: 40px;">
+                          <img src="imagens/Captura de tela 2022-01-30 111639.png" alt="" class="img-spotify">
+                          <p class="descricao-projeto">Clone da interface inicial do Spotify</p>
+                          <div class="row justify-content-between" style="padding: 5px 15px 5px 15px;">
+                            <div class="col-md-4 col-4">
+                                <i class="far fa-check-square"></i>
+                                Html
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <i class="far fa-check-square"></i>
+                                Css
+                            </div>
+                            <div class="col-md-4 col-5">
+                                <i class="far fa-check-square"></i>
+                                Bootstrap
+                            </div>
+                          </div>
+                          <div>Link</div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="titulo-projeto">
+                            <h1><span>App ToDo</span></h1>
+                          </div>
+                          <div style="margin-top: 40px;">
+                            <img src="imagens/Captura de tela 2022-01-30 145202.png" alt="" class="img-toDo">
+                            <p class="descricao-projeto">Um exemplar do famoso projeto "To Do"</p>
+                            <div class="row justify-content-between" style="padding: 5px 15px 5px 15px;">
+                              <div class="col-md-3 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Html
+                              </div>
+                              <div class="col-md-3 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Css
+                              </div>
+                              <div class="col-md-3 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Bootstrap
+                              </div>
+                              <div class="col-md-3 col-6">
+                                <i class="far fa-check-square"></i>
+                                Javascript
+                            </div>
+                            </div>
+                            <a target="_blank" rel="external" href="https://luisfelipe114.github.io/To-do/">Acessar projeto</a>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="titulo-projeto">
+                            <h1><span>App Lista de Tarefas</span></h1>
+                          </div>
+                          <div style="margin-top: 40px;">
+                            <img src="imagens/Captura de tela 2022-01-30 161513.png" alt="" class="img-listaTarefas">
+                            
+                            <p class="descricao-projeto">Um software para controle de tarefas com CRUD e sistema de logins</p>
+                            <div class="row justify-content-between" style="padding: 5px 15px 5px 15px;">
+                              <div class="col-md-2 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Html
+                              </div>
+                              <div class="col-md-2 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Css
+                              </div>
+                              <div class="col-md-2 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Bootstrap
+                              </div>
+                              <div class="col-md-2 col-6">
+                                <i class="far fa-check-square"></i>
+                                Javascript
+                              </div>
+                              <div class="col-md-2 col-6">
+                                <i class="far fa-check-square"></i>
+                                Php
+                              </div>
+                              <div class="col-md-2 col-6">
+                                <i class="far fa-check-square"></i>
+                                MySql
+                              </div>
+                            </div>
+                            <a target="_blank" rel="external" href="https://github.com/Luisfelipe114/App-lista-tarefas/tree/master">Acessar projeto</a>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="titulo-projeto">
+                            <h1><span>Twitter clone</span></h1>
+                          </div>
+                          <div style="margin-top: 40px;">
+                            <img src="imagens/Captura de tela 2022-01-30 151224.png" alt="" class="img-Twitter">
+                            <p class="descricao-projeto">Clone do twitter com algumas features do original</p>
+                            <div class="row justify-content-between" style="padding: 5px 15px 5px 15px;">
+                              <div class="col-md-2 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Html
+                              </div>
+                              <div class="col-md-2 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Css
+                              </div>
+                              <div class="col-md-2 col-6">
+                                  <i class="far fa-check-square"></i>
+                                  Bootstrap
+                              </div>
+                              <div class="col-md-2 col-6">
+                                <i class="far fa-check-square"></i>
+                                Javascript
+                              </div>
+                              <div class="col-md-2 col-6">
+                                <i class="far fa-check-square"></i>
+                                Php
+                              </div>
+                              <div class="col-md-2 col-6">
+                                <i class="far fa-check-square"></i>
+                                MySql
+                              </div>
+                            </div>
+                            <a target="_blank" rel="external" href="https://github.com/Luisfelipe114/Twitter_clone/tree/master">Acessar projeto</a>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- Controles -->
+                    <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+                      <i class="fas fa-angle-left fa-3x"></i>
+                    </a>
+                    <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+                      <i class="fas fa-angle-right fa-3x"></i>
+                    </a>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-preto caixa-rodape">
+        <div class="row justify-content-between">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 col-6">
+                        <i class="fab fa-whatsapp icone-contatos"></i>
+                        <span>(86)99817-4677</span>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <i class="fab fa-instagram icone-contatos"></i>
+                        <span>@luis_f3lipe89</span>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <i class="far fa-envelope icone-contatos"></i>
+                        <span>cabralluis994@gmail.com</span>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <i class="fab fa-github icone-contatos"></i>
+                        <span>Luisfelipe114</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <p>&copy Copyright-2021</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

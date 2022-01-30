@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.borda {
+    border: 1px solid black;
+}
+
+.bg-preto {
+    background-color: black;
+    color: white;
+}
+.bg-branco {
+    background-color: white;
+    color: black;
+}
+
+.caixa {
+    padding: 80px 80px 80px 80px;
+}
+
+body, html, header {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Caligrafia';
+    src: url('fontes/Hello Valentina.ttf') format('truetype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 1.1em;
+}
+
+.centro {
+    text-align: center;
+}
+
+#div-img-capa {
+    position: absolute;
+    bottom: 0px;
+}
+
+.introducao-capa {
+    margin: 30px 0px 0px 0px;
+}
+
+#img-capa {
+    width: 70%;
+}
+
+#titulo-capa {
+    font-family: 'Caligrafia';
+    font-size: 7em;
+    font-weight: 500;
+    line-height: 0.8em;
+    color: aquamarine
+}
+#subtitulo-capa {
+    font-family: 'Caligrafia';
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+#capa-conteudo {
+    padding: 60px;
+}
+
+
+/*CONTEÚDO - MAIN*/
+/*SOBRE MIM*/
+
+#caixa-skills {
+    background-color: rgba(255, 255, 255, 0.932);
+    color: black;
+    padding: 5px;
+    font-family: 'Caligrafia';
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 5px rgba(187, 177, 177, 0.63);
+    /*quarto valor: espalhamento da sombra*/
+}
+#titulo-skills {
+    font-size: 2.7em;
+    font-weight: bold;
+}
+#lista-skills {
+    list-style: none;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+#lista-skills li{
+    border-bottom: 1px solid black;
+}
+
+#img-perfil {
+    border-radius: 150px;
+}
+
+#texto-sm {
+    margin-top: 20px;
+    font-family: 'Caligrafia';
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+#projetos {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 80px 20px 80px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+    color: black;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    width: 10%;
+    color: black;
+}
+
+.descricao-projeto {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+#caixa-titulo-mp h1{
+    font-weight: bolder;
+    font-family: 'Caligrafia';
+    font-size: 4em;
+    margin-bottom: 15px;
+}
+
+.titulo-projeto h1 span{
+    border-bottom: 1px solid rgba(70, 69, 69, 0.651);
+}
+
+.icone-contatos {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.caixa-rodape {
+    padding: 30px 80px 30px 80px;
+}
+
+/*IMAGENS*/
+
+.img-spotify, .img-Twitter {
+    width: 55%;
+}
+
+.img-toDo, .img-listaTarefas {
+    width: 60%;
+}
+
+
+
+@keyframes introducao-titulo {
+    from {
+        color: white;
+    }
+    to {
+        color: black;
+    }
+}
+
+@keyframes introducao-subtitulo {
+    from {
+        color: white;
+    }
+    to {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+#titulo-capa {
+    font-family: 'Caligrafia';
+    font-size: 7em;
+    font-weight: 500;
+    line-height: 0.8em;
+    color: white;
+    animation-name: introducao-titulo;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+#subtitulo-capa {
+    font-family: 'Caligrafia';
+    font-size: 2em;
+    color: white;
+    animation-name: introducao-subtitulo;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
