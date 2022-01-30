@@ -220,3 +220,12 @@ body, html, header {
     animation-direction: normal;
     animation-fill-mode: forwards;
 }
+
+.carousel-indicators {
+    margin-top: -300px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+    margin-top: -120px;
+}

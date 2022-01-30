@@ -29,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="nav-target">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                        <a href="" class="nav-link">Sobre mim</a>
+                        <a href="#sobre_mim" class="nav-link">Sobre mim</a>
                         </li>
                         <li class="nav-item">
-                        <a href="" class="nav-link">Projetos</a>
+                        <a href="#projetos" class="nav-link">Projetos</a>
                         </li>
                         <li class="nav-item">
-                        <a href="" class="nav-link">Contatos</a>
+                        <a href="#contatos" class="nav-link">Contatos</a>
                         </li>
                         </li>
                     </ul>
@@ -58,7 +58,8 @@
     </header>
 
     <main>
-        <section class="bg-preto caixa">
+        <a name="sobre_mim"></a>
+        <section id="sombre_mim" class="bg-preto caixa">
             <div class="row justify-content-between">
                 <div id="caixa-perfil" class="col-md-5"> 
                     <div class="centro">
@@ -107,12 +108,26 @@
             </div>
         </section>
 
+        <a name="projetos"></a>
         <section id="projetos" class="bg-branco">
             <div class="centro" id="caixa-titulo-mp">
                 <h1>Meus Projetos</h1>
             </div>
             <div class="centro">
                 <div id="carousel-controles" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+
+                        <li class="active d-none d-lg-block" data-target="#carousel-controles" data-slide-to="0"></li>
+          
+                        <li class="d-none d-lg-block" data-target="#carousel-controles" data-slide-to="1"></li>
+          
+                        <li class="d-none d-lg-block" data-target="#carousel-controles" data-slide-to="2"></li>
+
+                        <li class="d-none d-lg-block" data-target="#carousel-controles" data-slide-to="3"></li>
+          
+                    </ol>
+
                     <div  class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="titulo-projeto">
@@ -241,16 +256,18 @@
                       </div>
                     </div>
                     <!-- Controles -->
-                    <a href="#carousel-controles" class="carousel-control-prev controles" data-slide="prev">
+                    <a href="#carousel-controles" class="carousel-control-prev controles d-lg-none" data-slide="prev">
                       <i class="fas fa-angle-left fa-3x"></i>
                     </a>
-                    <a href="#carousel-controles" class="carousel-control-next controles" data-slide="next">
+                    <a href="#carousel-controles" class="carousel-control-next controles d-lg-none" data-slide="next">
                       <i class="fas fa-angle-right fa-3x"></i>
                     </a>
                   </div>
             </div>
         </section>
     </main>
+
+    <a name="contatos"></a>
 
     <footer class="bg-preto caixa-rodape">
         <div class="row justify-content-between">

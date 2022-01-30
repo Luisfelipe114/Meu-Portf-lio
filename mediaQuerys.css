@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+@keyframes introducao-titulo {
+    from {
+        color: white;
+    }
+    to {
+        color: black;
+    }
+}
+
+@keyframes introducao-subtitulo {
+    from {
+        color: white;
+    }
+    to {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+
 @media (max-width: 575.98px) { 
     #img-capa {
         width: 100%;
@@ -10,11 +29,12 @@
         font-size: 6em;
         font-weight: 500;
         line-height: 0.8em;
+        color: white;
     }
     #subtitulo-capa {
         font-family: 'Caligrafia';
         font-size: 1.8em;
-        color: rgba(0, 0, 0, 0.5);
+        color: white;
     }
     .introducao-capa {
         margin: 140px 0px 0px 0px;
@@ -37,6 +57,9 @@
         width: 100%;
     }
 
+    .carousel-indicators {
+        margin-top: -300px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
